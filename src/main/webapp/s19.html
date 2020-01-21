@@ -15,14 +15,14 @@
     <form action="/comment" method="post">
         <div>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="sender">
+            <input type="text" id="name" name="sender" value="ciao" required> <!-- input importante ed il più usato, inoltre non ha il tag in chiusura -->
         </div>
         <div>
             <label for="msg">Message:</label>
             <textarea id="msg" name="message"></textarea>
         </div>
         <div>
-            <button type="submit">Send</button>
+            <button type="submit">Send</button> <!--  se ci clicco,faccio submit del form -->
         </div>
     </form>
 </body>
