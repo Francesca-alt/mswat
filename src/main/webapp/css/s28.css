@@ -1,44 +1,44 @@
 body {
-    background-color: gray;
+    background-color: pink; /*lo applico al body a tutto*/
 }
 
 p {
-    font-family: fantasy;
+    font-family: serif;
 }
 
-#special {
+#special { /* mi aspetto che id sarà special*/
     color: violet;
 }
 
 h1, h2, h3 {
-    color: yellow;
+    color: blue;
 }
 
 .myClass {
     font-style: italic;
 }
 
-p.myClass {
-    color: blue;
+p.myClass { /* solo i paragrafi di quella classe */
+    color: black;
 }
 
 #paragraphId {
-    color: red;
+    color: #ffff80;
 }
 
 #blockId {
-    border: 3px solid #ff8000;
-    background-color: #ffff80;
+    border: 3px solid #8000ff; /* voglio settare il bolder*/
+    background-color: #ff80ff;
 }
 
-.boldCls {
+.boldCls { /* per dire il grassetto*/
     font-weight: bold;
 }
 
-.itaCls {
+.itaCls {/*per il corsivo*/
     font-style: italic;
 }
 
-.upperCls {
+.upperCls {/*posso trasformare il mio testo*/
     text-transform: uppercase;
 }

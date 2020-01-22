@@ -1,3 +1,4 @@
+@charset "utf8";
 table {
     border: 2px solid black;
     border-collapse: collapse;
@@ -5,15 +6,18 @@ table {
 }
 
 td, th {
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 20px;
     text-align: center;
 }
 
 th {
-    background-color: lightblue;
+    background-color: #408080;
 }
 
 td {
-    background-color: lightgreen;
+    background-color: #80ffff;
+}
+td{
+.oldprices text-decoration:line -through;
 }
