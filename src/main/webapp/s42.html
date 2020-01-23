@@ -45,7 +45,7 @@
             target.value += 'x is ' + x + '\n';
         }
 
-        x = Number('Mistake');
+        x = Number('Mistake'); // cerco di trasformare un numero in una stringa in java sarebbe exception, in js Nan;
         if(x) {
             target.value += '?!\n';
         } else {

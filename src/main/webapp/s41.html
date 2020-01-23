@@ -14,9 +14,9 @@
     <textarea id="target" rows="20" cols="80"></textarea>
 
     <script type="text/javascript">
-        let target = document.getElementById('target');
+        let target = document.getElementById('target');// document è l'oggetto con cui il browser accede in dom e prendi l'elemento per mezzo dell'id che ti passo;
 
-        let data = [ 1, 'hello', [ true, 42.24 ] ];
+        let data = [ 1, 'hello', [ true, 42.24 ] ];// data è il nome della mia variabile è un array di 3 elementi
         target.value += data + '\n';
         console.log(data.length);
 
@@ -32,7 +32,7 @@
         target.value += 'pop: ' + data.pop() + '\n';
         target.value += 'shift: ' + data.shift() + '\n';
         target.value += 'current status: ' + data + '\n';
-        data.push('push1');
+        data.push('push1');// prima mette il primo valore alla fine dell array data;
         data.push('push2');
         data.unshift('unshift');
         target.value += 'new status: ' + data + '\n';

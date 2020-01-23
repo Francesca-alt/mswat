@@ -17,7 +17,7 @@
         let target = document.getElementById('target');
 
         let value = 2;
-        let check = value === 2;
+        let check = (value === 2);// prima valuto value che è true e poi l'assegno;
         target.value += check + '\n';
 
         check = value !== 3;
@@ -35,7 +35,7 @@
         check = value >= 2;
         target.value += check + '\n';
 
-        check = value == '2';
+        check = value == '2';// il confronto e mi ritorna true;
         target.value += check + '\n';
 
         check = value != '2';
